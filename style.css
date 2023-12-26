@@ -76,6 +76,10 @@ header {
   right: 0;
 }
 
+h1 {
+  color: #0013c2;
+}
+
 nav {
   display: flex;
   align-items: center;
