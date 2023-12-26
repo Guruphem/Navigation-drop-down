@@ -144,6 +144,10 @@ h1 {
   font-size: 1.4rem;
 }
 
+.drop-parent button:focus-within {
+  color: #0013c2;
+}
+
 .dropdown {
   background: #0013c2;
   border-radius: 0 0 5px 5px;
