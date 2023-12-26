@@ -10,57 +10,65 @@ html {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: linear-gradient(
-      30deg,
-      #62d4c5 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #62d4c5 87.5%,
-      #62d4c5
+  background: radial-gradient(
+      50% 50% at 100% 0,
+      #47d3ff 0% 5%,
+      #474bff 6% 15%,
+      #47d3ff 16% 25%,
+      #474bff 26% 35%,
+      #47d3ff 36% 45%,
+      #474bff 46% 55%,
+      #47d3ff 56% 65%,
+      #474bff 66% 75%,
+      #47d3ff 76% 85%,
+      #474bff 86% 95%,
+      #0000 96%
     ),
-    linear-gradient(
-      150deg,
-      #62d4c5 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #62d4c5 87.5%,
-      #62d4c5
+    radial-gradient(
+      50% 50% at 0 100%,
+      #47d3ff 0% 5%,
+      #474bff 6% 15%,
+      #47d3ff 16% 25%,
+      #474bff 26% 35%,
+      #47d3ff 36% 45%,
+      #474bff 46% 55%,
+      #47d3ff 56% 65%,
+      #474bff 66% 75%,
+      #47d3ff 76% 85%,
+      #474bff 86% 95%,
+      #0000 96%
     ),
-    linear-gradient(
-      30deg,
-      #62d4c5 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #62d4c5 87.5%,
-      #62d4c5
+    radial-gradient(
+      50% 50%,
+      #47d3ff 0% 5%,
+      #474bff 6% 15%,
+      #47d3ff 16% 25%,
+      #474bff 26% 35%,
+      #47d3ff 36% 45%,
+      #474bff 46% 55%,
+      #47d3ff 56% 65%,
+      #474bff 66% 75%,
+      #47d3ff 76% 85%,
+      #474bff 86% 95%,
+      #0000 96%
     ),
-    linear-gradient(
-      150deg,
-      #62d4c5 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #62d4c5 87.5%,
-      #62d4c5
-    ),
-    linear-gradient(
-      60deg,
-      rgba(98, 212, 197, 0.5) 25%,
-      transparent 25.5%,
-      transparent 75%,
-      rgba(98, 212, 197, 0.5) 75%,
-      rgba(98, 212, 197, 0.5)
-    ),
-    linear-gradient(
-      60deg,
-      rgba(98, 212, 197, 0.5) 25%,
-      transparent 25.5%,
-      transparent 75%,
-      rgba(98, 212, 197, 0.5) 75%,
-      rgba(98, 212, 197, 0.5)
-    );
-  background-size: 64px 112px;
-  background-position: 0 0, 0 0, 32px 56px, 32px 56px, 0 0, 32px 56px;
-  background-color: #409fec;
+    radial-gradient(
+        50% 50%,
+        #47d3ff 0% 5%,
+        #474bff 6% 15%,
+        #47d3ff 16% 25%,
+        #474bff 26% 35%,
+        #47d3ff 36% 45%,
+        #474bff 46% 55%,
+        #47d3ff 56% 65%,
+        #474bff 66% 75%,
+        #47d3ff 76% 85%,
+        #474bff 86% 95%,
+        #0000 96%
+      )
+      32px 32px;
+  background-size: 64px 64px;
+  background-color: #47d3ff;
 }
 
 header {
